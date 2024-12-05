@@ -61,3 +61,10 @@ This project is a React-based application that integrates with the [Reqres API](
    ```bash
    git clone https://github.com/Ananda-2/EmployWise-Assignment
    ```
+
+## Live Demo Link
+
+1. **Netlify host Link**
+   ```bash
+    https://employwise-assignment-ananda.netlify.app/
+   ```

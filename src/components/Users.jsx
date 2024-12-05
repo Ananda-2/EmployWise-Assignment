@@ -292,16 +292,16 @@ const Users = () => {
                       <img
                         src={user.avatar}
                         alt={`${user.first_name} ${user.last_name}`}
-                        className="w-24 h-24 mx-auto rounded-full object-cover ring-4 ring-blue-100"
+                        className="min-w-24 min-h-24 h-24 w-24 mx-auto rounded-full object-cover ring-4 ring-blue-100"
                       />
                     </div>
-                    <div className="flex-grow space-y-2">
+                    <div className="flex-grow space-y-2 text-center md:text-left">
                       <h3 className="text-xl font-semibold text-gray-900">
                         {user.first_name} {user.last_name}
                       </h3>
                       <p className="text-gray-600">{user.email}</p>
                     </div>
-                    <div className="flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className=" md:flex text-center md:text-right flex-col gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <button
                         onClick={() => setEditingUser(user)}
                         className="p-2 rounded-full hover:bg-gray-100 transition-colors"
