@@ -287,7 +287,7 @@ const Users = () => {
                   key={user.id}
                   className="bg-white rounded-xl shadow-lg p-6 group hover:shadow-2xl transition-all duration-300"
                 >
-                  <div className=" md:flex items-center text-center gap-6">
+                  <div className=" md:flex items-center gap-6">
                     <div className="relative">
                       <img
                         src={user.avatar}
